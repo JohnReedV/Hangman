@@ -1,5 +1,4 @@
 #hangman
-#fun little game I wanted to make
 import time
 secret = set(word := input("Input the secret word for this hangman game! ").lower())
 MAX_ATTEMPTS = 5
